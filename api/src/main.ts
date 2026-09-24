@@ -1,6 +1,6 @@
 import express, { type Express } from "express";
 import * as dotenv from "dotenv";
-import { ExerciciosRouter } from "./routes/ExerciciosRouter.js";
+import { ExerciciosRouter } from "./routes/exercicios.route.js";
 
 dotenv.config();
 
