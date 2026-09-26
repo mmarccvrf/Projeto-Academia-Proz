@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { ExerciciosController } from "../controllers/exercicios.controller.js";
-import { ExerciciosService } from "../services/exercicios.service.js";
+import { ExerciciosController } from "./exercicios.controller.js";
+import { ExerciciosService } from "./exercicios.service.js";
 
 export class ExerciciosRouter {
   private readonly router: Router;
@@ -11,7 +11,7 @@ export class ExerciciosRouter {
     this.router = Router();
     this.router.get(
       "/exercicios",
-      this.controller.listarExercicios.bind(this.controller),
+      this.controller.findAllExercises.bind(this.controller),
     );
   }
 

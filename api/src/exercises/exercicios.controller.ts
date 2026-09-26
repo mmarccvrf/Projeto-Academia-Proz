@@ -1,12 +1,12 @@
 import type { Request, Response } from "express";
-import { ExerciciosService } from "../services/exercicios.service.js";
+import { ExerciciosService } from "./exercicios.service.js";
 import type { IError } from "../common/interfaces/error.interface.js";
 import type { ExerciseDBResponse } from "../common/types/exercisedbResponse.js";
 
 export class ExerciciosController {
   constructor(private readonly exerciciosService: ExerciciosService) {}
 
-  async listarExercicios(req: Request, res: Response): Promise<Response> {
+  async findAllExercises(req: Request, res: Response): Promise<Response> {
     try {
       const exercicios: ExerciseDBResponse | IError =
         await this.exerciciosService.listarExercicios();
