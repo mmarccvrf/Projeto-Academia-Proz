@@ -1,7 +1,8 @@
-import type { MuscleDto } from "./dtos/muscles.dto.js";
+import type { MuscleEntity } from "../entitys/muscle.entity.js";
+import type { MuscleDto } from "./dto/muscles.dto.js";
 
 export class MusclesRepository {
-  private muscles!: MuscleDto[];
+  private muscles!: MuscleEntity[];
   private id!: number;
 
   constructor() {
@@ -9,17 +10,17 @@ export class MusclesRepository {
     this.id = 0;
   }
 
-  findAllMuscles(): MuscleDto[] {
+  findAllMuscles(): MuscleEntity[] {
     return this.muscles;
   }
 
   findOneMuscles(id?: number, name?: string): MuscleDto {
-    let muscle: MuscleDto = { id: 1, name: "test" };
+    let muscle: MuscleEntity = { id: 1, name: "test" };
     return muscle;
   }
 
   createMuscle(muscleResponse: MuscleDto): void {
-    const muscle: MuscleDto = {
+    const muscle: MuscleEntity = {
       id: this.id,
       name: muscleResponse.name,
     };

@@ -1,4 +1,4 @@
-export class MuscleDto {
+export class MuscleEntity {
   id!: number;
   name!: string;
 }
