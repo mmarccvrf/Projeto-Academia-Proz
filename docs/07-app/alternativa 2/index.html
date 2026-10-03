@@ -53,40 +53,12 @@
                 <span class="timer-global">00:15:32</span>
             </div>
 
-            <div class="exercise-accordion">
-                <div class="exercise-header-item">
-                    <span>1. Remada com Barra</span>
-                    <span>▲</span>
+            <div class="exercise-accordion" id="exercise-accordion">
+                <!-- Conteúdo dinâmico carregado via API https://serverapi.space/academia/exercises -->
+                <div class="exercise-loading">
+                    <div class="spinner"></div>
+                    <p>Carregando exercícios da academia...</p>
                 </div>
-                
-                <div class="exercise-media-placeholder">
-                    <div class="gif-badge">GIF</div>
-                    <!-- Simulando a imagem de execução do Carlos -->
-                    <div class="inner-media-simulation">🏋️‍♂️</div>
-                </div>
-
-                <div class="set-card-box">
-                    <div class="set-row-title">
-                        <span>Set 1</span>
-                    </div>
-                    <div class="set-inputs">
-                        <div class="input-block">
-                            <label>Reps</label>
-                            <input type="number" value="12" disabled>
-                        </div>
-                        <div class="input-block">
-                            <label>Kg</label>
-                            <input type="number" value="60" id="weight-value">
-                        </div>
-                    </div>
-                    <button class="btn-done" id="btn-concluir" onclick="triggerRestTimer()">✓ Concluído</button>
-                </div>
-
-                <div class="exercise-header-item disabled-item">
-                    <span id="txt-ex-2">2. Puxada Alta</span>
-                </div>
-
-                <button class="btn-occupied" id="btn-occupied-trigger" onclick="openOccupationModal()">Aparelho Ocupado?</button>
             </div>
 
             <!-- Botão Fixo de Descanso -->
@@ -96,13 +68,13 @@
         </section>
 
         <!-- TELA 3: MODAL APARELHO OCUPADO (OVERLAY) -->
-        <div class="modal-overlay" id="occupation-modal">
+        <div class="modal-overlay" id="occupation-modal" onclick="handleModalOverlayClick(event)">
             <div class="modal-sheet">
-                <div class="modal-drag-indicator"></div>
+                <div class="modal-drag-indicator" onclick="closeOccupationModal()" style="cursor: pointer;"></div>
                 <h3>Aparelho Ocupado?<br><small>Sem Pânico!</small></h3>
                 
-                <div class="options-container">
-                    <div class="option-row" onclick="selectAlternative('Opção A: Remada Unilateral com Halter')">
+                <div class="options-container" id="modal-options-container">
+                    <div class="option-row" onclick="selectAlternative('Opção A: Remada Unilateral com Halter', this)">
                         <div class="option-icon">🏋️</div>
                         <div class="option-details">
                             <strong>Opção A:</strong>
@@ -110,7 +82,7 @@
                         </div>
                     </div>
 
-                    <div class="option-row" onclick="selectAlternative('Opção B: Pulldown na Polia')">
+                    <div class="option-row" onclick="selectAlternative('Opção B: Pulldown na Polia', this)">
                         <div class="option-icon">⚙️</div>
                         <div class="option-details">
                             <strong>Opção B:</strong>
