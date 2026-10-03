@@ -10,4 +10,4 @@
 
 - Objetivo no App: Entrar na academia sabendo o quão cheia ela está, executar a sequência sem travar em nenhuma máquina e sair no tempo planejado.
 
-- Como o Smart Gym resolve: Lucas abre o app, vê que a ocupação está em 80%. Ao chegar na extensora e ver uma fila, ele clica em "Aparelho Ocupado?" e o app sugere na hora o Agachamento Búlgaro com Halteres. Ele substitui no treino, faz a série e economiza 15 minutos de espera.
+- Como o Projeto Academia Proz resolve: Lucas abre o app, vê que a ocupação está em 80%. Ao chegar na extensora e ver uma fila, ele clica em "Aparelho Ocupado?" e o app sugere na hora o Agachamento Búlgaro com Halteres. Ele substitui no treino, faz a série e economiza 15 minutos de espera.

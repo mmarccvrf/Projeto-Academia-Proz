@@ -1,10 +1,10 @@
-# Documento de Requisitos do Produto (PRD) — App Smart Gym
+# Documento de Requisitos do Produto (PRD) — App Projeto Academia Proz
 
 Objetivo do Documento: Guiar o time de engenharia e design no desenvolvimento de um web app responsivo focado na otimização de tempo em academias.
 
 ## 1. Visão Geral e Objetivo do Produto
 
-O Smart Gym é um aplicativo web responsivo (focado em uso mobile) que atua como um assistente digital em tempo real para alunos de academia.
+O Projeto Academia Proz é um aplicativo web responsivo (focado em uso mobile) que atua como um assistente digital em tempo real para alunos de academia.
 
 - O Problema: Usuários perdem muito tempo na academia esperando aparelhos liberarem ou sem saber como substituir um exercício de forma eficiente quando o equipamento está ocupado.
 

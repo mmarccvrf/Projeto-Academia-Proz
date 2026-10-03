@@ -1,4 +1,4 @@
-# 🏋️‍♂️ Smart Gym App — MVP
+# 🏋️‍♂️ Projeto Academia Proz App — MVP
 
 > Um web app responsivo (mobile-first) focado na otimização de tempo dentro da academia, eliminando gargalos de espera de aparelhos e auxiliando na autonomia dos treinos.
 
@@ -6,7 +6,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **Smart Gym** foi concebido para resolver uma dor real de frequentadores de academia: o tempo perdido esperando equipamentos liberarem ou a dependência de instrutores para adaptar a ficha de exercícios em horários de pico. 
+O **Projeto Academia Proz** foi concebido para resolver uma dor real de frequentadores de academia: o tempo perdido esperando equipamentos liberarem ou a dependência de instrutores para adaptar a ficha de exercícios em horários de pico. 
 
 O ecossistema do repositório foi construído seguindo rigorosamente as boas práticas de **Product Design (UX/UI)** e **Engenharia de Software**, dividindo o ciclo de vida do produto em etapas claras de validação e desenvolvimento.
 
@@ -54,7 +54,7 @@ A organização das pastas reflete o processo de descoberta, design e codificaç
    ```
 2. Navegue até a pasta do aplicativo:
    ```bash
-   cd smart-gym-app/07-app
+   cd Projeto-Academia-Proz/docs/07-app/
    ```
 3. Abra o arquivo `index.html` diretamente em qualquer navegador web ou utilize a extensão **Live Server** no VS Code para simular o ambiente de servidor.
 4. Para uma experiência ideal, abra a ferramenta de desenvolvedor do navegador (`F12`) e ative o **Modo de Visualização Responsiva (Mobile)**.

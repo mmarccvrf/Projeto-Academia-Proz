@@ -1,6 +1,6 @@
-# ♿ Acessibilidade Digital no Smart Gym
+# ♿ Acessibilidade Digital no Projeto Academia Proz
 
-Este módulo detalha os conceitos, decisões de design e a implementação técnica das ferramentas de acessibilidade incluídas no MVP do **Smart Gym**, garantindo que o aplicativo web responsivo seja inclusivo e utilizável por um público mais amplo.
+Este módulo detalha os conceitos, decisões de design e a implementação técnica das ferramentas de acessibilidade incluídas no MVP do **Projeto Academia Proz**, garantindo que o aplicativo web responsivo seja inclusivo e utilizável por um público mais amplo.
 
 ---
 

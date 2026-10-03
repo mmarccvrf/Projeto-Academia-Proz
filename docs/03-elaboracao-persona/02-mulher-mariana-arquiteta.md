@@ -10,4 +10,4 @@
 
 - Objetivo no App: Ter um "instrutor de bolso" guiando a execução e um lugar simples para anotar os pesos e ver que está evoluindo.
 
-- Como o Smart Gym resolve: Na tela de "Execução do Treino", Mariana olha o GIF animado para relembrar a postura exata da Puxada Alta. Ela faz a série, anota os "25kg" diretamente no campo de texto e, no final da semana, abre o "Histórico e Progresso" para ver o gráfico de sua evolução subindo, mantendo-se motivada.
+- Como o Projeto Academia Proz resolve: Na tela de "Execução do Treino", Mariana olha o GIF animado para relembrar a postura exata da Puxada Alta. Ela faz a série, anota os "25kg" diretamente no campo de texto e, no final da semana, abre o "Histórico e Progresso" para ver o gráfico de sua evolução subindo, mantendo-se motivada.
