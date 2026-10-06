@@ -34,8 +34,9 @@ body {
 /* Container Smartphone Responsivo */
 .smartphone-container {
     width: 100%;
+    min-height: 100vh;
     max-width: 412px;
-    height: 850px;
+    /*height: 850px;*/
     background-color: var(--bg-black);
     border: 0.5rem solid #222;
     border-radius: 2.5rem;
@@ -107,6 +108,10 @@ body {
 /* Tela de Treino */
 .workout-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; }
 .timer-global { font-size: 1rem; color: var(--text-grey); }
+
+#exercise-accordion {
+    height: 76vh;
+}
 
 .exercise-item {
     margin-bottom: 1.25rem;
@@ -327,4 +332,14 @@ body {
 }
 .accessibility-bar button:hover {
     border-color: var(--accent-green);
+}
+
+.scroll-container {
+overflow-x: auto; /* Enables horizontal scrolling */
+scrollbar-width: none; /* Hides scrollbar in Firefox */
+-ms-overflow-style: none; /* Hides scrollbar in IE and Edge */
+}
+
+.scroll-container::-webkit-scrollbar {
+display: none; /* Hides scrollbar in Chrome, Safari, and Opera */
 }
